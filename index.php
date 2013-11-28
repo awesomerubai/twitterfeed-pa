@@ -38,8 +38,8 @@
   </div>
 
 
-  <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.1.2/handlebars.min.js"></script>
+  <script src="bower/jquery/jquery.min.js"></script>
+  <script src="bower/handlebars/handlebars.min.js"></script>
 
   <script src="scripts/main.js"></script>
 </body>
