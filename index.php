@@ -11,6 +11,10 @@
   <header class="header">
     <h1>Twitter Feed</h1>
     <p>Following #obama</p>
+
+    <footer class="attr">
+      <p>Handcrafted by Fardeem Munir with ❤</p>
+    </footer>
   </header>
 
   <div class="main">
@@ -18,9 +22,7 @@
       <script id="tweets-template" type="text/x-handlebars-template">
       {{#each this}}
         <li>
-          {{!-- <img src="{{thumb}}" class="tweet__img" alt="{{author}}"/> --}}
-
-          <img src="http://placebear.com/55/55" class="tweet__img" alt="{{author}}"/>
+          <img src="{{thumb}}" class="tweet__img" alt="{{author}}"/>
 
           <section class="tweet__author">
             <h2>{{author}}</h2>
